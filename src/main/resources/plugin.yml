@@ -8,9 +8,14 @@ description: Subway system plugin
 commands:
   subway-system:
     description: "Main command for SubwaySystem"
-    usage: "/subway <help|map|station|line>"
+    usage: "/subway-system <help|map|station|line>"
     aliases: [metro, subway]
     permission: subway-system.user
+  subway-system-admin:
+    description: "Admin commands for SubwaySystem"
+    usage: "/subway-system-admin <reload>"
+    permission: subway-system.admin
+    aliases: [metroadmin, subwayadmin]
 
 permission:
   subway-system.user:
