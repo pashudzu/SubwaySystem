@@ -7,8 +7,16 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SubwaySystem extends JavaPlugin implements Listener {
+    private static SubwaySystem instance;
+
     @Override
     public void onEnable() {
+        instance = this;
+
         Bukkit.getPluginManager().registerEvents(this, this);
+    }
+
+    public static SubwaySystem getInstance() {
+        return instance;
     }
 }
