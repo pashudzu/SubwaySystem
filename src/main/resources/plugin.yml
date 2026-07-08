@@ -1,0 +1,6 @@
+name: SubwaySystem
+version: 1.0
+main: com.github.pashudzu.SubwaySystemPlugin
+api-version: 1.21
+author: Pashudzu
+description: Subway system plugin
