@@ -11,3 +11,14 @@ commands:
     usage: "/subway <help|map|station|line>"
     aliases: [metro, subway]
     permission: subway-system.user
+
+permission:
+  subway-system.user:
+    description: "Basic user permissions for SubwaySystem"
+    default: true
+  subway-system.upgrade:
+    description: "Permission for creating new stations and lines"
+    default: false
+  subway-system.admin:
+    description: "Admin permission for SubwaySystem"
+    default: op
