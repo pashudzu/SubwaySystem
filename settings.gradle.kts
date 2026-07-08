@@ -1,1 +1,1 @@
-rootProject.name = "better-rails"
+rootProject.name = "SubwaySystem"
