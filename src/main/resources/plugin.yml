@@ -4,3 +4,10 @@ main: com.github.pashudzu.SubwaySystemPlugin
 api-version: 1.21
 author: Pashudzu
 description: Subway system plugin
+
+commands:
+  subway-system:
+    description: "Main command for SubwaySystem"
+    usage: "/subway <help|map|station|line>"
+    aliases: [metro, subway]
+    permission: subway-system.user

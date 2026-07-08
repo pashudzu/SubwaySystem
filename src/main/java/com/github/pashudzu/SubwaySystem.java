@@ -1,5 +1,4 @@
 package com.github.pashudzu;
-
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
